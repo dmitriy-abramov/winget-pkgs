@@ -1,0 +1,16 @@
+# Created using wingetcreate 1.0.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+
+PackageIdentifier: HERE.OLPCLI
+PackageVersion: 16.2.27
+InstallerLocale: en-US
+MinimumOSVersion: 10.0.0.0
+Installers:
+- Architecture: x64
+  InstallerType: wix
+  InstallerUrl: https://artifact.api.platform.here.com/v1/references/hrn:here:artifact::olp-here-test:com.here.platform:cli:16.2.27/olp-cli-installer-16.2.27.msi?apiKey=84q8N9DRx6YAqyJaXUpr9fhiTnCUIBzvHLpk3QU4Oaw
+  InstallerSha256: 9594FB6A2B90097548411BFAFA6F8EC16764C6AB847D11F0628712E120F60C62
+  ProductCode: '{651F9B77-E6B1-36A5-A35D-131659EE1BBE}'
+ManifestType: installer
+ManifestVersion: 1.1.0
+
